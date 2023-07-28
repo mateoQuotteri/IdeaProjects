@@ -28,6 +28,9 @@ Informar el resultado obtenido.
         }
 
     }*/
+    public static void main(String[] args) {
+        Animal jack = new Animal("Jack", 9, "Perro");
+        System.out.println(jack.toString());
 
     /*
           Para representar cada una de las características de las mascotas, crear una variable y darle
@@ -37,7 +40,7 @@ Informar el resultado obtenido.
   como el siguiente ejemplo:
   “Manchitas tiene 2 años”
   “Manchitas come un kilo y medio y hace guau guau”
-          * */
+
     public static void main(String[] args) {
 
 
@@ -49,8 +52,8 @@ Informar el resultado obtenido.
         System.out.println(nombre + " come " + comida+ " kg y hace " + ladrido);
 
 
-    }
+    }*/
 }
-
+}
 
 
