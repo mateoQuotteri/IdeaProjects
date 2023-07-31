@@ -14,6 +14,8 @@ mensaje.
 
 Ejercicio 2
 
+
+
 Definir dos Integer y determinar cuál es mayor, cuál es menor o si son iguales.
 Informar el resultado obtenido.
 
@@ -29,8 +31,13 @@ Informar el resultado obtenido.
 
     }*/
     public static void main(String[] args) {
-        Animal jack = new Animal("Jack", 9, "Perro");
-        System.out.println(jack.toString());
+      //  Animal jack = new Animal("Jack", 9, "Perro");
+       // System.out.println(jack.toString());
+
+        CryptoCurrency Ether = new CryptoCurrency(1896, "Ethereum" ,
+                "ETH" , 4695, 8);
+
+        System.out.println(Ether.getName() + " tiene este precio: " + Ether.getPrice());
 
     /*
           Para representar cada una de las características de las mascotas, crear una variable y darle
