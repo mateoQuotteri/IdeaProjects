@@ -30,6 +30,8 @@ Informar el resultado obtenido.
         }
 
     }*/
+
+    /*VOID ES PARA INDICAR QUE LA FUNCION NO RETORNARA NADA */
     public static void main(String[] args) {
       //  Animal jack = new Animal("Jack", 9, "Perro");
        // System.out.println(jack.toString());
