@@ -10,10 +10,7 @@ this.nombre = nombre;
 this.numeroCliente = numeroCliente;
 deuda  = 0.0;
     }
-    public String getNombre(){
 
-        return nombre;
-    }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
