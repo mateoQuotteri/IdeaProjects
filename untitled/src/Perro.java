@@ -5,8 +5,9 @@ public class Perro {
         this.apodo = apodo;
     }
 
-    public void ladrar(){
-        System.out.println("Guau guau!");
+    public Object ladrar(){
+         // System.out.println("Guau guau!");
+        return "Guau Guau";
     }
 
     public String getApodo() {

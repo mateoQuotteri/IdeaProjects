@@ -11,6 +11,10 @@ public class Paseador {
         perro.ladrar();
     }
 
+    public void hizoLadrarAlPerro(Perro perro){
+        System.out.println(nombre + " hizo que el perro diga: " + perro.ladrar());
+    }
+
 
 
 }
