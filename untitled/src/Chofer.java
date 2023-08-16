@@ -9,4 +9,18 @@ public class Chofer {
         this.auto = auto;
     }
     public String verPatente(){return auto.getPatente();}
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + "/n" +
+                "Apellido: " + apellido;
+    }
+
+    @Override
+    public int hashCode() {
+       int hash = 31;
+       hash = hash * nombre.hashCode();
+       hash = hash * apellido.hashCode();
+       return hash
+    }
 }
