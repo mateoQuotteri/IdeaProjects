@@ -21,6 +21,6 @@ public class Chofer {
        int hash = 31;
        hash = hash * nombre.hashCode();
        hash = hash * apellido.hashCode();
-       return hash
+       return hash;
     }
 }
